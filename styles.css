@@ -1,0 +1,175 @@
+body{
+    background-color: #e23636;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    background-color: #504a4a;
+    padding: 1rem;
+    box-shadow: 10px 8px 20px -4px #504a4a;
+}
+
+.header1div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header1div input{
+    padding: 0.25rem 1rem;
+    background-image: url('./magnifying-glass-solid.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    outline: 0;
+    text-indent: 1rem;
+    background-size: 1.5rem;
+    border-radius: 0.8rem;  
+}
+
+.favoritelink{
+    background-color: #504a4a;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 10px 8px 20px -4px #504a4a;
+}
+
+#searchInput{
+    height: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+#superheroesList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.superhero-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17.5%;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 10px 8px 20px -4px #504a4a;
+    background-color: #504a4a;
+    border-radius: 1rem;
+}
+
+.superhero-item a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.superhero-item img{
+    height: 14rem;
+    width: 12rem;
+    box-shadow: 10px 8px 20px -4px #504a4a;
+}
+ button{
+    margin-top: 1rem;
+    width: 11rem;
+    padding: 0.5rem 1rem;
+    color: beige;
+    background-color: #518cca;
+    border-radius: 1rem;
+    box-shadow: 10px 8px 20px -4px #504a4a;
+    border: none;
+    font-size: 1rem;
+}
+
+.nextprev{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nextprev button{
+    padding: 1rem;
+    background-color: #504a4a;
+    color: beige;
+    font-size: 1rem;
+}
+
+
+
+
+
+/* favorites */
+
+#favoritesheader{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.homelink{
+    background-color: #504a4a;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 10px 8px 20px -4px #504a4a;
+}
+
+#favoritesh1{
+    margin-left: 20rem;
+    color: beige;
+}
+
+#favoritesList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* superhero page */
+#superheroheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#superheroheader h1{
+    text-align: center;
+    color: beige;
+}
+
+#superheroDetails{
+    display: flex;
+}
+
+#superheroDetails div img{
+    width: 45rem;
+    box-shadow: 10px 8px 20px -4px #504a4a;
+}
+
+#superheroDetails div{
+    color: beige;
+}
+
+#superheroDetails div h1{
+    text-align: center;
+    color: beige;
+    background-color: #504a4a;
+}
+
+#superheroDetails div div h2{
+    text-align: center;
+    color: beige;
+    background-color: #504a4a;
+}
+
+
+#superheroDetails div {
+    margin: 2rem;
+}
+
+.favoritelink, .homelink{
+    font-size: 1.5rem;
+}
